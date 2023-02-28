@@ -1,0 +1,22 @@
+.list {
+    flex-direction: column;
+}
+
+.photoGrid {
+    width: 100%;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+}
+
+.photoGrid img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+}
+
+.photoGrid [aria-label="rings-loading"] {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5%;
+    background: #004835;
+    color: white;
+    
+    }
+
+.navLinks {
+    display: flex;
+    list-style-type: none;
+}
+
+.navLinks li {
+    padding: 0.75em;
+    margin: 0 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
