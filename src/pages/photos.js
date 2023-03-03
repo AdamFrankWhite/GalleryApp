@@ -16,11 +16,11 @@ function photos(props) {
         tile: {
             width: "275px",
             height: "200px",
-            objectFit: "cover",
         },
         image: {
             width: "100%",
             height: "100%",
+            objectFit: "cover",
         },
     };
     const [photos, setPhotos] = useState([]);
