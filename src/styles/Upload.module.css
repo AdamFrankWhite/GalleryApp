@@ -1,0 +1,23 @@
+.upload-form {
+    border: navy 1px solid;
+    border-radius: 10px;
+    width: 30%;
+    max-width: 350px;
+    margin: 2em auto;
+    padding: 1.5em;
+}
+
+.upload-form .row {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0.5em;
+}
+
+.upload-form button {
+    width: 100%;
+    padding: 1em;
+    background: navy;
+    color: white;
+    
+}
